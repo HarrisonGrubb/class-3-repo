@@ -1,3 +1,5 @@
+import os
+
 delivery = {
 'sender': 'Charlie',
 'recipient': 'Anika',
@@ -14,3 +16,7 @@ for s in delivery['stops']:
 print(stops)
 
 print(delivery['stops'][-1:])
+
+print(os.path.dirname(__file__))
+
+breakpoint()
